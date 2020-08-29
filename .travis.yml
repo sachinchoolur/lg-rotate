@@ -5,5 +5,5 @@ before_install:
   - gem install sass
   - gem install compass
 before_script:
-  - 'npm install -g bower grunt-cli'
-  - 'bower install'
+  - 'npm install -g grunt-cli'
+  - 'npm install'
