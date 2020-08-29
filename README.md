@@ -1,5 +1,4 @@
 ![travis](https://travis-ci.org/sachinchoolur/lg-rotate.svg?branch=master)
-![bower](https://img.shields.io/bower/v/lg-rotate.svg)
 ![npm](https://img.shields.io/npm/v/lg-rotate.svg)
 
 # Rotate module for [lightGallery](http://sachinchoolur.github.io/lightGallery/)
@@ -21,17 +20,10 @@ lightgallery supports all major browsers including IE 9 and above..
 
 Installation
 ---
-#### Install with Bower
 
-You can install lightgallery rotate plugin using the [Bower](http://bower.io) package manager.
+#### Install with npm
 
-```sh
-$ bower install lg-rotate --save
-```
-
-#### npm
-
-You can also find lightgallery rotate plugin on [npm](http://npmjs.org).
+You can install lightgallery rotate plugin using the [npm](http://npmjs.org) package manager.
 
 ```sh
 $ npm install lg-rotate
