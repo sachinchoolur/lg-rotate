@@ -1,0 +1,30 @@
+{
+  "name": "lg-rotate",
+  "version": "1.2.1",
+  "description": "Rotate module for lightgallery.",
+  "main": [
+    "dist/lg-rotate.min.js"
+  ],
+  "keywords": [
+    "gallery",
+    "lightbox",
+    "image",
+    "youtube",
+    "vimeo"
+  ],
+  "authors": [
+    "Sachin N <sachi77n@gmail.com>"
+  ],
+  "homepage": "http://sachinchoolur.github.io/lightGallery/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sachinchoolur/lg-rotate.git"
+  },
+  "dependencies": {
+    "jquery": ">=1.7.0"
+  },
+  "license": "GPLv3",
+  "ignore": [
+    "README.md"
+  ]
+}
