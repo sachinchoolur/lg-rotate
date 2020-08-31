@@ -51,7 +51,7 @@ Include lg-rotate plugin after lightgallery.min.js.
 </body>  
 ```
 
-[Demos](http://sachinchoolur.github.io/lightGallery/demos/rotate.html)
+[Demos](http://sachinchoolur.github.io/lightGallery/)
 ----
   
 [Docs](http://sachinchoolur.github.io/lightGallery/docs/api.html#lg-rotate)
