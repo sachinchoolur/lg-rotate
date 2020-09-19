@@ -23,11 +23,11 @@
 
     Rotate.prototype.buildTemplates = function () {
         var rotateIcons = '';
-        if (this.core.s.flipHorizontal) {
-            rotateIcons += '<button aria-label="Flip horizontal" class="lg-flip-hor lg-icon"></button>';
-        }
         if (this.core.s.flipVertical) {
-            rotateIcons += '<button aria-label="flip vertical" class="lg-flip-ver lg-icon"></button>';
+            rotateIcons += '<button aria-label="Flip vertical" class="lg-flip-ver lg-icon"></button>';
+        }
+        if (this.core.s.flipHorizontal) {
+            rotateIcons += '<button aria-label="flip horizontal" class="lg-flip-hor lg-icon"></button>';
         }
         if (this.core.s.rotateLeft) {
             rotateIcons += '<button aria-label="Rotate left" class="lg-rotate-left lg-icon"></button>';
@@ -102,12 +102,12 @@
     };
 
     Rotate.prototype.flipHorizontal = function () {
-        this.rotateValuesList[this.core.index].flipHorizontal *= -1;
+        this.rotateValuesList[this.core.index].flipVertical *= -1;
         this.applyStyles();
     };
-
+    
     Rotate.prototype.flipVertical = function () {
-        this.rotateValuesList[this.core.index].flipVertical *= -1;
+        this.rotateValuesList[this.core.index].flipHorizontal *= -1;
         this.applyStyles();
     };
 
