@@ -86,8 +86,8 @@
         $image.css(
             'transform',
             'rotate(' + this.rotateValuesList[this.core.index].rotate + 'deg)' +
-            ' scale3d(' + this.rotateValuesList[this.core.index].flipVertical +
-            ', ' + this.rotateValuesList[this.core.index].flipHorizontal + ', 1)'
+            ' scale3d(' + this.rotateValuesList[this.core.index].flipHorizontal +
+            ', ' + this.rotateValuesList[this.core.index].flipVertical + ', 1)'
         );
     };
 
@@ -102,12 +102,12 @@
     };
 
     Rotate.prototype.flipHorizontal = function () {
-        this.rotateValuesList[this.core.index].flipVertical *= -1;
+        this.rotateValuesList[this.core.index].flipHorizontal *= -1;
         this.applyStyles();
     };
     
     Rotate.prototype.flipVertical = function () {
-        this.rotateValuesList[this.core.index].flipHorizontal *= -1;
+        this.rotateValuesList[this.core.index].flipVertical *= -1;
         this.applyStyles();
     };
 
