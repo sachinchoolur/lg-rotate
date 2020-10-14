@@ -1,4 +1,4 @@
-/*! lg-rotate - v1.2.1-beta.0 - 2020-10-05
+/*! lg-rotate - v1.2.1 - 2020-10-14
 * http://sachinchoolur.github.io/lightGallery
 * Copyright (c) 2020 Sachin N; Licensed GPLv3 */
 
